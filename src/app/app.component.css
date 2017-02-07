@@ -3,8 +3,8 @@ md-sidenav-layout.m2app-dark {
 }
 
 .app-content {
-  padding: 20px;
-}
+/*   padding: 20px;
+ */}
 
 .app-content md-card {
   margin: 20px;
@@ -19,15 +19,12 @@ md-sidenav-layout.m2app-dark {
   margin: 10px;
 }
 
-.app-toolbar-filler {
-  flex: 1 1 auto;
-}
 
 .app-toolbar-menu {
   padding: 0 14px 0 14px;
   color: white;
 }
-
+ 
 .app-icon-button {
   box-shadow: none;
   user-select: none;
@@ -71,3 +68,4 @@ md-sidenav-layout.m2app-dark {
 .app-progress {
   margin: 20px;
 }
+

@@ -1,0 +1,9 @@
+
+.app-sidenav {
+  padding: 10px;
+  min-width: 100px;
+}
+
+md-sidenav-layout.m2app-dark {
+  background: black;
+}

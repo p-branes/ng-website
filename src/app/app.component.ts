@@ -8,13 +8,19 @@ import {MdDialog, MdDialogRef, MdSnackBar} from '@angular/material';
   styleUrls: ['app.component.css'],
 })
 export class Material2AppAppComponent {
-  isDarkTheme: boolean = false;
+  isDarkTheme: boolean = true;
   lastDialogResult: string;
 
   foods: any[] = [
     {name: 'Pizza', rating: 'Excellent'},
     {name: 'Burritos', rating: 'Great'},
     {name: 'French fries', rating: 'Pretty good'},
+  ];
+
+navLinks: any[] = [
+    {name: 'Angular', routerLinkActive: 'true', ref:'/angular'},
+    {name: 'React', routerLinkActive: 'false', ref:'/react'},
+    {name: 'Alfresco', routerLinkActive: 'false', ref:'/alfresco'},
   ];
 
   progress: number = 0;

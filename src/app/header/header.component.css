@@ -1,0 +1,39 @@
+md-toolbar-row {
+  height: 48px;
+}
+
+.app-toolbar-filler {
+  flex: 1 1 auto;
+}
+
+
+.app-toolbar-menu {
+  padding: 0 14px 0 14px;
+  color: white;
+}
+ 
+
+.app-icon-button {
+  box-shadow: none;
+  user-select: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  filter: none;
+  font-weight: normal;
+  height: auto;
+  line-height: inherit;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+}
+
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
